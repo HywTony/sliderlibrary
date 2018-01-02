@@ -506,19 +506,19 @@ public class SliderLayout extends RelativeLayout {
         }
     }
 
-    /**
-     * Inject your custom animation into PageTransformer, you can know more details in
-     * {@link com.daimajia.slider.library.Animations.BaseAnimationInterface},
-     * and you can see a example in {@link com.daimajia.slider.library.Animations.DescriptionAnimation}
-     *
-     * @param animation
-     */
-    public void setCustomAnimation(BaseAnimationInterface animation) {
-        mCustomAnimation = animation;
-        if (mViewPagerTransformer != null) {
-            mViewPagerTransformer.setCustomAnimationInterface(mCustomAnimation);
-        }
-    }
+//    /**
+//     * Inject your custom animation into PageTransformer, you can know more details in
+//     * {@link com.daimajia.slider.library.Animations.BaseAnimationInterface},
+//     * and you can see a example in {@link com.daimajia.slider.library.Animations.DescriptionAnimation}
+//     *
+//     * @param animation
+//     */
+//    public void setCustomAnimation(BaseAnimationInterface animation) {
+//        mCustomAnimation = animation;
+//        if (mViewPagerTransformer != null) {
+//            mViewPagerTransformer.setCustomAnimationInterface(mCustomAnimation);
+//        }
+//    }
 
     /**
      * pretty much right? enjoy it. :-D
